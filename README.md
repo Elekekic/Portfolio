@@ -1,27 +1,20 @@
-# Portfolio
+<div align="center">
+ <img src="https://github.com/user-attachments/assets/e7f08295-9869-4bc6-84c5-fc3579f347c4" width="700px"> 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.12.
+<br> 
 
-## Development server
+<br> 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![Static Badge](https://img.shields.io/badge/Deployed-%23ceb8ba?style=flat&logo=Vercel&label=Vercel&labelColor=black)
 
-## Code scaffolding
+Hey ✨ Welcome to my portfolio! [click here](https://madebyelena.vercel.app/) and go chat with me! I'm waiting for you to open the notification
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<br> 
 
-## Build
+[video](https://github.com/user-attachments/assets/3fe6b4f4-d7fe-407c-a7cd-d2d4d7a62386)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+</div>
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
