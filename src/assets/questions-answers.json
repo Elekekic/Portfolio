@@ -1,0 +1,222 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "text": "Can you tell me a little bit about you?"
+        },
+        {
+            "id": 2,
+            "text": "What technologies do you know?"
+        },
+        {
+            "id": 3,
+            "text": "Do you have any projects that i can look into?"
+        },
+        {
+            "id": 4,
+            "text": "Can i see your cv?"
+        },
+        {
+            "id": 5,
+            "text": "Cats or dogs?"
+        },
+        {
+            "id": 6,
+            "text": "How can i get in contact with you?"
+        },
+        {
+            "id": 7,
+            "text": "One inspirational quote?"
+        },
+        {
+            "id": 8,
+            "text": "Can you please share your socials?",
+            "hidden": true
+        },
+        {
+            "id": 9,
+            "text": "Dogs obviously",
+            "hidden": true
+        },
+        {
+            "id": 10,
+            "text": "CATS.",
+            "hidden": true
+        },
+        {
+            "id": 11,
+            "text": "Do you still edit?"
+        },
+        {
+            "id": 12,
+            "text": "Mind sharing your insta?",
+            "hidden": true
+        }
+    ],
+    "answers": {
+        "1": [
+            "Sureee!",
+            "Hi again! I'm Elena Kekic 💫, a 19 y/o Junior Full-Stack Web Developer 👩‍💻",
+            "Althrough my roots come from Romania and Serbia, I was born in Italy, specifically in Trieste 📍",
+            "This diverse background is one of the reasons I have a passion for learning languages! Having more than one language in your pocket is always better in my opinion",
+            "and being able to communicate with multiple people has always fascinated me",
+            "'The more, the merrier,' as they say, and I couldn’t agree more 😌",
+            "Fun fact: I'm passionate about editing, but the idea of bringing things to life through code caught my attention 🧐.",
+            "I also consider myself to be quite creative, so animating on a website sounded fun!",
+            "I decided to give coding a shot... and here we are",
+            "I'm still upgrading my skills tho, since learning never truly ends in this field.",
+            "Got any more questions?"
+        ],
+        "2": [
+            "Starting from the front-end:",
+            "HTML, CSS, SASS, Javascript, Typescript, Angular, Bootstrap, GSAP, Node.js, RxJS, Responsive design",
+            "For the backend:",
+            "Java, Spring Boot, SQL, PostgreSQL, JWT",
+            "Others:",
+            "Git, Github and Postman",
+            "Any other questions?"
+        ],
+        "3": [
+            "Absolutely!",
+            "I have many ideas for my projects, but that's a secret 🤫",
+            "You wanna know what i'm talking about?",
+            "You can find me on Linkedin and Github",
+            "So you will see any updates i will make 😌",
+            "But anyways, here the links:",
+            {
+                "link": 6
+            },
+            {
+                "link": 7
+            },
+            {
+                "next_question": 8
+            }
+        ],
+        "4": [
+            "Ofc! I have one in italian and one in english so choose in which language you wanna read it!",
+            {
+                "link": 3
+            },
+            {
+                "link": 4
+            }
+        ],
+        "5": [
+            "Mhmm... 🤔",
+            "...",
+            "Red pandas 💀",
+            "Okay okay if i had to choose... probably cats",
+            "And you?",
+            {
+                "next_question": 9,
+                "next_question": 10
+            }
+        ],
+        "6": [
+            "Through my socials or my email!",
+            "My email is kekicelena@gmail.com",
+            "And my socials are:",
+            {
+                "link": 1
+            },
+            {
+                "link": 2
+            },
+            {
+                "link": 5
+            }
+        ],
+        "7": [
+            {
+                "quote": "'Old ways won't open new doors.'"
+            },
+            {
+                "quote": "'Don't do things just because you wanna do things. Do what's interesting to you and don't worry about the outcome.'"
+            },
+            {
+                "quote": "'If you wanna run faster, you gotta run with a bunch of people who run faster of you.'"
+            },
+            {
+                "quote": "'Everyone is jealous of what you've got. No one is jealous of how you got it. People see the throphies but not the training'"
+            },
+            {
+                "quote": "'To get something you never had, you have to do something you never did.'"
+            },
+            {
+                "quote": "'You can't control the wind, but you can adjust your sails.'"
+            },
+            "If you want to hear more, ask me the same question again 💬",
+            "Or, if you have anything else in mind, ask away!"
+        ],
+        "8": [
+            "Ofc! There you go: ",
+            {
+                "link": 1
+            },
+            {
+                "link": 2
+            },
+            {
+                "link": 5
+            }
+        ],
+        "9": [
+            "Nice!",
+            "Gotta admit it, they are a very reliable companion",
+            "Okay now back to being serious, do you wanna ask more?"
+        ],
+        "10": [
+            "AS YOU SHOULD",
+            "Okay now back to being serious, do you wanna ask more?"
+        ],
+        "11": [
+            "Yes!",
+            "Editing has always been a part of my life",
+            "Almost in everything i do, my editing skills have always been useful!",
+            "It made me also meet new people! So i'm always happy to edit for others or myself ✨",
+            "and because of that, I've decided to make an account on insta to storage all my work!",
+            {
+                "next_question": 12
+            }
+        ],
+        "12": [
+            "Not at all! But little side note:",
+            "It's new, so there just a few of my works",
+            "(don't forget to follow me if u wish to see more in the future)",
+            {
+                "link": 5
+            }
+        ]
+    },
+    "links": {
+        "1": {
+            "name": "Linkedin",
+            "link": "https://www.linkedin.com/in/elena-kekic-/"
+        },
+        "2": {
+            "name": "Github",
+            "link": "https://github.com/Elekekic"
+        },
+        "3": {
+            "name": "ELENA KEKIC - CV (it)",
+            "link": "assets/pdf/ELENA KEKIC - CV (it).pdf"
+        },
+        "4": {
+            "name": "ELENA KEKIC - CV (en)",
+            "link": "assets/pdf/ELENA KEKIC - CV (en).pdf"
+        },
+        "5": {
+            "name": "Instagram",
+            "link": "https://www.instagram.com/kekicediting/"
+        },
+        "6": {
+            "name": "Loveline",
+            "link": "https://github.com/Elekekic/Loveline"
+        },
+        "7": {
+            "name": "Uberly",
+            "link": "https://github.com/Elekekic/Uberly"
+        }
+    }
+}
