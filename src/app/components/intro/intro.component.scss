@@ -1,0 +1,141 @@
+body {
+  height: 100vh; /* 100% of the viewport height */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: "Poppins bold";
+  font-size: 4.5vw;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e9e8e5;
+  font-family: "Poppins";
+}
+
+.notification-info svg {
+  width: 20px;
+  color: black;
+}
+
+.button svg {
+  width: 20px;
+  color: #e9e8e5;
+}
+
+.notification-container {
+  margin-bottom: 100px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-radius: 18px;
+  background: #e0e0e0bc;
+  box-shadow: 10px 10px 31px #bebebe, -10px -10px 31px #ffffff;
+}
+
+.notification-container p {
+  margin: 0;
+}
+
+.notification-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.notification-info {
+  width: 100%;
+}
+
+.notification-info div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.full-name {
+  font-family: "Poppins";
+}
+
+.time {
+  color: gray;
+  font-size: 14px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #ceb2ae;
+  padding: 8px 18px;
+  border-radius: 18px;
+}
+
+.button svg {
+  width: 22px;
+  margin-left: 10px;
+}
+
+@media (max-width: 992px) { 
+
+  h1 {
+    text-align: center;
+    font-size: 7vw;
+  }
+
+  .notification-container {
+    width: 80%;
+  }
+
+}
+
+@media (max-width: 576px) { 
+
+  .notification-container p {
+    font-size: 12px;
+  }
+
+  .full-name {
+    font-size: 14px !important;
+  }
+
+  h1 {
+    margin: 20px;
+    text-align: center;
+    font-size: 9vw;
+  }
+
+  img {
+    width: 50px;
+    border-radius: 50%;
+  }
+
+  .notification-container {
+    margin-bottom: 100px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 18px;
+    background: #e0e0e0bc;
+    box-shadow: 10px 10px 31px #bebebe, -10px -10px 31px #ffffff;
+  }
+
+ }
+
+

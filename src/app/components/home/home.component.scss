@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+a {
+  color: #2c2c2d;
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  border-radius: 0 0 16px 16px;
+  color: #f0eceb;
+  height: 70px;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+}
+
+.left-header img {
+  width: 40px;
+}
+
+.left-header h1 {
+  color: #ceb8ba;
+  padding: 0 10px;
+  font-size: 2.4vw;
+  font-family: "Poppins bold";
+}
+
+.right-header {
+  color: #2c2c2d;
+  padding: 0 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: calc(100vh - 160px);
+}
+
+.chat-sct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  width: 100%;
+  height: 100%;
+}
+
+.chat {
+  height: 100%;
+  width: 75%;
+}
+
+.chat svg {
+  width: 25px;
+  cursor: pointer;
+}
+
+.chat-header {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.name {
+  display: flex;
+}
+
+.name p {
+  font-size: 1.4em;
+}
+
+.chat-header-info {
+  padding: 0 10px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+.chat-img {
+  display: flex;
+  align-items: center;
+}
+
+.chat-img img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.chat-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.status {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 10px;
+  background-color: #ceb8ba;
+  color: #2c2c2d;
+  border-radius: 16px;
+}
+
+.status svg {
+  width: 20px;
+  margin-left: 5px;
+}
+
+.share {
+  display: flex;
+  height: 100%;
+  width: 100px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.share a {
+  color: #2c2c2d;
+  transition: all 0.3s ease;
+}
+
+.share a:hover {
+  color: #ceb8ba;
+}
+
+.chat-body {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  width: 100%;
+}
+
+.text-bubble-left {
+  opacity: 0;
+  margin-top: 10px;
+  padding: 10px;
+  max-width: 60%;
+  width: fit-content;
+  background-color: #ceb8ba;
+  border-radius: 0 10px 10px 10px;
+  word-wrap: break-word;
+}
+
+.text-bubble-right {
+  opacity: 0;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 10px;
+  padding: 10px;
+  max-width: 60%;
+  width: fit-content;
+  color: #f0eceb;
+  background-color: #2c2c2d;
+  border-radius: 10px 10px 0 10px;
+  word-wrap: break-word;
+}
+
+.questions-container {
+    opacity: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.questions-container button {
+    font-family: 'Poppins';
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    align-self: flex-end;
+    padding: 10px;
+    width: fit-content;
+    color: #f0eceb;
+    background-color: #2c2c2d;
+    border-radius: 10px 10px 0 10px;
+    transition: all 0.3s ease;
+}
+
+.questions-container button:hover {
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 992px) {
+
+  .left-header img {
+    width: 40px;
+  }
+  
+  .left-header h1 {
+    color: #ceb8ba;
+    padding: 0 10px;
+    font-size: 4vw;
+    font-family: "Poppins bold";
+  }
+
+}
+
+@media (max-width: 576px) { 
+
+  .left-header img {
+    width: 35px;
+  }
+  
+  .left-header h1 {
+    color: #ceb8ba;
+    padding: 0 10px;
+    font-size: 6vw;
+    font-family: "Poppins bold";
+  }
+
+  .name {
+    font-size: 12px;
+  }
+
+  .status {
+    font-size: 12px;
+  }
+
+  .status svg {
+    width: 14px;
+  }
+
+  .share {
+    width: 30px;
+  }
+
+  .chat {
+    width: 85%;
+  }
+
+  .chat-img img {
+    width: 50px;
+    border-radius: 50%;
+  }
+
+  .questions-container {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+
+  .text-bubble-left {
+    max-width: 80%;
+  }
+
+  .text-bubble-left p {
+    font-size: 14px;
+  }
+
+  .text-bubble-right {
+    max-width: 80%;
+  }
+
+  .text-bubble-right p {
+    font-size: 14px;
+  }
+
+  .name svg {
+    width: 22px;
+  }
+
+ }
